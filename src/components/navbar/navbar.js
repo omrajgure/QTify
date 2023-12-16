@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "../navbar/navbar.module.css";
 import { Logo } from "./logo/logo";
-import { Searchbar } from "./searchbar/searchbar";
+import { Search } from "./search/Search";
 import { Button } from "./button/Button";
 export const Navbar = () => {
   return (
     <div>
       <div className={styles.navbar}>
         <Logo />
-        <Searchbar />
-        <Button text={"Give Feedback"} />
+        <Search placeholder={"Search a album of your choice"} />
+        <Button>Give Feedback</Button>
       </div>
     </div>
   );
