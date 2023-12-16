@@ -1,0 +1,15 @@
+.hero_div {
+  display: flex;
+  justify-content: center;
+}
+.hero_inner_splitdiv {
+  display: flex;
+  align-items: center;
+}
+.hero_txt {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-right: 20px;
+}

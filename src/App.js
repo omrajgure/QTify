@@ -1,9 +1,10 @@
-import "./App.css";
-import { Feedback } from "./components/feedback_comp";
+import { Navbar } from "./components/navbar/navbar";
+import { Hero } from "./components/hero/hero";
 function App() {
   return (
-    <div className="App">
-      <Feedback />
+    <div>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
