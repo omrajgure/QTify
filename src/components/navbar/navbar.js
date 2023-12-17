@@ -5,12 +5,10 @@ import { Search } from "./search/Search";
 import { Button } from "./button/Button";
 export const Navbar = () => {
   return (
-    <div>
-      <div className={styles.navbar}>
-        <Logo />
-        <Search placeholder={"Search a album of your choice"} />
-        <Button>Give Feedback</Button>
-      </div>
+    <div className={styles.navbar}>
+      <Logo />
+      <Search placeholder={"Search a album of your choice"} />
+      <Button>Give Feedback</Button>
     </div>
   );
 };
