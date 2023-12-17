@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../hero/hero.module.css";
 import { ReactComponent as Vibrating_headphone } from "../../assets/vibrating-headphone 1.svg";
+import img from "../../assets/vibrating-headphone 1.png";
 export const Hero = () => {
   return (
     <div className={styles.hero_div}>
@@ -10,7 +11,7 @@ export const Hero = () => {
           <p>Over thousands podcast episodes</p>
         </div>
         <div>
-          <Vibrating_headphone />
+          <img src={img} />
         </div>
       </div>
     </div>
