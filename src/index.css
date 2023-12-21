@@ -35,6 +35,14 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 #root,
 #__next {
   isolation: isolate;

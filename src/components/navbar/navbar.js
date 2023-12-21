@@ -3,7 +3,7 @@ import styles from "../navbar/navbar.module.css";
 import { Logo } from "./logo/logo";
 import { Search } from "./search/Search";
 import { Button } from "./button/Button";
-export const Navbar = () => {
+export const Navbar = ({ searchdata }) => {
   return (
     <div className={styles.navbar}>
       <Logo />
